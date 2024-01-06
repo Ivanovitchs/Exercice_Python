@@ -5,7 +5,7 @@ tableau = [2,5,10,2,1,4]
 j=0
 n=0
 for i in tableau:
-   moyenne =+ j+i/len(tableau)
+   moyenne =+ (j+i)/len(tableau)
 
 
 print("la moyenne de ce tableau est : " ,moyenne) 
